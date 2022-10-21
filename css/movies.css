@@ -1,0 +1,36 @@
+.buttons-container {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  margin-top: 2vh;
+  gap: 5px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.geners-btn {
+  background: pink;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px 5px 0px;
+}
+
+.movies-container img {
+  width: 10vw;
+}
+
+.movie {
+  width: 15vw;
+  text-align: center;
+  border: solid rgb(252, 249, 249) 1px;
+  border-radius: 3px;
+  background-color: rgb(217, 217, 205);
+}
+
+.movies-container {
+  margin-top: 3vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}

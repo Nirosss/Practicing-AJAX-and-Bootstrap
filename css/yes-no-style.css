@@ -1,0 +1,35 @@
+.question-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 60vw;
+  height: 30vh;
+  margin: auto;
+  margin-top: 8vh;
+  background-color: rgb(28, 148, 20);
+  color: aliceblue;
+}
+
+#question {
+  width: 40%;
+}
+
+.answer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 60vw;
+  height: 30vh;
+  margin: auto;
+  margin-top: 8vh;
+  text-align: center;
+}
+
+.reaction {
+  display: flex;
+  justify-content: center;
+  margin-top: 8vh;
+  text-align: center;
+}
