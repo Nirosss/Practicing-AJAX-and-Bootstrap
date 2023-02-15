@@ -1,13 +1,10 @@
 'use strict'
 
 function onInit() {
-  renderGenereButtons()
-}
-
-function renderGenereButtons() {
   getGeners()
   renderGenereButtons()
 }
+
 
 function renderGenereButtons() {
   const genres = loadFromStorage(GENRES_KEY)
