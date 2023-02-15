@@ -3,7 +3,7 @@ const GENRES_KEY = 'GENRES'
 const MOVIES_KEY = 'MOVIES'
 const API_KEY = 'd09f6306dd877f74d60087d86587036d'
 
-function getGeners() {
+function getGeners(cb) {
   const XHR = new XMLHttpRequest()
   const URL = `https://api.themoviedb.org/3/genre/movie/list?api_key=${API_KEY}`
 
@@ -12,6 +12,7 @@ function getGeners() {
       let res = loadFromStorage(GENRES_KEY) || JSON.parse(XHR.responseText)
       res = _prepareData(res)
       saveToStorage(GENRES_KEY, res)
+      cb()
     }
   }
 
